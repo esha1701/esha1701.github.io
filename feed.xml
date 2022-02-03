@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://esha1701.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://esha1701.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-02-03T12:02:55+00:00</updated><id>https://esha1701.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">Remyelination in Multiple Sclerosis</title><link href="https://esha1701.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="Remyelination in Multiple Sclerosis" /><published>2021-12-12T00:00:00+00:00</published><updated>2021-12-12T00:00:00+00:00</updated><id>https://esha1701.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://esha1701.github.io/blog/2021/diagrams/"><![CDATA[<p>Most drugs and therapies for multiple sclerosis aim to mitigate disability progression. However, they do not have any impact on reversing neurodegeneration. Remyelination may be an exception to Cajal’s famous postulate in neuroscience—“everything may die, nothing may regenerate” in the central nervous system. Inducing remyelination is therefore a central focus of current multiple sclerosis research and it is worth exploring if the disability caused by MS can be reversible.</p>
+
+<p>Demyelination is the destruction of the myelin sheath, a type of fatty tissue that surrounds and protects nerves axons throughout the body and facilitates electrical impulse conduction. 
+Demyelination results in reduced brain connectivity, causing neurological deficits such as changes in gait, muscle tone and cognition dysfunction.</p>
+
+<p>Remyelination is the process in which entire myelin sheaths are generated around demyelinated axons, reinstating saltatory conduction and resolving functional deficits. 
+This process requires the generation of new mature oligodendrocytes. This was concluded from two observations: first, there is a greater number of oligodendrocytes in an area of remyelination than in an equivalent area that is not undergoing remyelination; and second, that remyelination occurs in areas that have been experimentally depleted of oligodendrocytes. Thus, remyelination is mediated not by surviving oligodendrocytes but by new oligodendrocytes derived from a population of adult CNS stem cells, called adult oligodendrocyte precursor cells.</p>
+
+<h4 id="stem-cell-transplant">Stem Cell Transplant</h4>
+<p>Oligodendrocytes are terminally differentiated cells with limited response to injury. Stem cells, however, persist in most adult tissues and they provide a renewable source of lineage-specific cell types by their ability of proliferation and self-renewal.</p>
+
+<p>The discovery of the ability of neural stem cells to regenerate in damaged areas of the central nervous system suggest the possibility of recovery from neurodegeneration. By recruiting their own endogenous neural stem cells to affected areas, people can be their own donors. Neural stem cells, thus, may induce remyelination and help regain lost neurological function.</p>
+
+<p>In animal models of MS, Bone marrow Mesenchymal Stem Cells administered intravenously were able to migrate and engraft in the brain, where they reduced demyelination and enhanced remyelination in the corpus callosum. Bone marrow Mesenchymal Stem Cells modulated glial response and reduced cell apoptosis. The therapy did not function only as an immunosuppressant, but also enhanced endogenous repair.</p>
+
+<h4 id="clemastine">Clemastine</h4>
+<p>Clemastine is an antihistamine drug currently used for treating allergies, such as hay fever.
+It is believed to act on M1 muscarinic receptors on oligodendrocytes. Studies have shown that these receptors can encourage immature oligodendrocytes to mature into cells capable of making myelin.</p>
+
+<h4 id="diet">Diet</h4>
+<p>Preliminary studies show that a Ketogenic Diet and a Fasting Diet supress autoimmunity and promote remyelination in the mouse model of MS. They do so by reducing pro-inflammatory cytokines, inducing lymphocyte apoptosis and regenerating oligodendrocytes.
+However, studies are still investigating the effects of a Ketogenic and a Fasting Diet on disease progression of MS in humans.</p>
+
+<h4 id="biotin">Biotin</h4>
+<p>Biotin, also known as vitamin H or coenzyme R, is one of the B-group vitamins (vitamin B7) is another drug being repurposed for remyelination. Biotin is necessary for cell growth, the production of fatty acids, and the metabolism of fats and amino acids,. At the cellular level, it activates enzymes involved in energy production and synthesis of myelin. MD1003 is a highly-concentrated formulation of biotin, about 10,000 times the recommended daily intake of biotin. MD1003 may be effective in MS by promoting myelin repair through activation of an enzyme involved in myelin synthesis and by enhancing energy production in demyelinated nerves.</p>
+
+<p><br /></p>
+
+<p>It is evident that effective treatments for MS require not only the mitigation of autoimmunity, but also the stimulation of oligodendrocyte regeneration in order to restore functional myelin sheath. However, like with all regenerative processes, the possibility of remyelination in the central nervous system decreases with age. Consequently, promoting remyelination in the diseased adult CNS may be a much harder challenge. Therefore, it is important to translate the findings of regenerative biology to regenerative medicine and put it to practice for early MS treatment.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Exploring the possibility of neuroregeneration in multiple sclerosis]]></summary></entry><entry><title type="html">Insulin-Glucose Absorption Dynamics</title><link href="https://esha1701.github.io/blog/2020/math/" rel="alternate" type="text/html" title="Insulin-Glucose Absorption Dynamics" /><published>2020-12-22T00:00:00+00:00</published><updated>2020-12-22T00:00:00+00:00</updated><id>https://esha1701.github.io/blog/2020/math</id><content type="html" xml:base="https://esha1701.github.io/blog/2020/math/"><![CDATA[<p>[<a href="https://github.com/esha1701/insulin-gi-dynamics">Code for this project.</a>]</p>
+
+<p>Since subcutaneously delivered insulin analogs for type one diabetics behave differently from natural insulin, it’s almost impossible to keep blood sugar levels stable after meals. Almost always, you get a sharp peak followed by a rapid fall.</p>
+
+<p><img width="500" alt="Screenshot 2022-02-03 at 9 47 48 AM" src="https://user-images.githubusercontent.com/46085409/152280495-1a3b4dab-e760-4790-a301-ffd9a6d0dbf0.png" /></p>
+
+<p>After subcutaneous delivery, insulin is in its hexameric form. Hexameric insulin cannot be directly absorbed in the bloodstream. These hexamers dissociate into dimeric and monomeric units, caused by diffusion in the intercellular dilution of the insulin concentration. Once it is in its dimeric and monomeric form, insulin penetrates the capillary membrane and is absorbed into the bloodstream. Since this process slows down absorption, insulin analogs do not manage to keep blood sugar levels steady the way natural insulin does.</p>
+
+<p>Maybe sharp peaks and troughs can be avoided by mapping carbohydrate absorption rate and insulin activity to each other.</p>
+
+<p>To match the trend of their curves, I quantified the bioavailability of insulin and the glycaemic index of food. Using regression, I determined insulin activity curves and glycemic response to different foods.</p>
+
+<h2 id="modelling-insulin-activity">Modelling Insulin Activity</h2>
+
+<p>Currently, closed loop systems (Loop and OpenAPS) use exponential insulin activity curves fitted to novolog and fiasp data. I, however, wanted to try obtaining curves for humalog activity.</p>
+
+<h3 id="polynomial-regression">Polynomial Regression</h3>
+
+<p>First, I tried to approximate insulin curves with polynomial models. Using the Bayesian Information Criteria, I checked what degree gives the best fit. The model with the lowest BIC was a 7 degree polynomial.</p>
+
+<p><img width="511" alt="Screenshot 2020-12-17 at 4 04 38 PM" src="https://user-images.githubusercontent.com/46085409/102476940-bbc2d980-4081-11eb-8b9a-dfcfda51fff3.png" /></p>
+
+<p>Since there isn’t a consistent decay trend after the peak is hit, polynomial models are not a great fit to mimic insulin activity.</p>
+
+<h3 id="exponential-curve-fitting">Exponential Curve Fitting</h3>
+
+<p>Next I tried to fit data to an exponential model because I needed gradual asymptotic fading of insulin concentration.</p>
+
+<p><img width="511" alt="Screenshot 2021-01-03 at 7 00 53 PM" src="https://user-images.githubusercontent.com/46085409/103479784-09677200-4df6-11eb-9997-1a1bad611419.png" /></p>
+
+<p>The exponential model was a decent fit and the one I ended up using.</p>
+
+<h2 id="modelling-glycemic-index">Modelling Glycemic Index</h2>
+<p>I tried to model the glycemic index of food in the following way - I took cgm readings after consumption of 15 grams of carbs in different foods, provided that there was no insulin on board. I fitted the data to a polynomial curve and found the peak of the graph. 
+Next, I normalised both curves and shifted the insulin curve to meet the peak time for the glycemic index curve. This way we can calculate the time gap between insulin and food consumption to get matched curve trends which can give relatively steady blood sugar after meals.</p>
+
+<p>An example curve for 15 grams of carbs (from an apple):</p>
+
+<p><img width="545" alt="Screenshot 2021-01-03 at 8 59 25 PM" src="https://user-images.githubusercontent.com/46085409/103483325-84d41e00-4e0c-11eb-85db-f2ca9311c241.png" />
+<img width="530" alt="Screenshot 2022-02-03 at 9 50 27 AM" src="https://user-images.githubusercontent.com/46085409/152280637-f691e1d8-8feb-4ea2-9650-03a82b94e6c3.png" /></p>
+
+<h2 id="assumptions--drawbacks">Assumptions &amp; Drawbacks</h2>
+
+<ul>
+  <li>Subcutaneous insulin absorption can be influenced by many factors such as location of injection site, temperature and blood flow near the injection site. It is difficult to consider these factors in determining insulin activity curves since they vary each time and are impossible to quantify.</li>
+  <li>YDMV (your diabetes may vary) will always be a challenge while building solutions for diabetes. The insulin curves are fit to consolidation of data in clinical trials from a large number of diabetics. Insulin action, however, differs among each individual. No curve will be able to give precise readings for two different people or even for the same person at different points in time.</li>
+  <li>This method can only be used for foods that have a carbohydrate absorption profile similar to insulin absorption. This method can not work for foods very high in fat or protein because their absorption dynamics do not follow the rise-singlepeak-fall trend.</li>
+  <li>We are working on the assumption that glucose and insulin dose size does not affect its profile/ dynamics of absorption.</li>
+  <li>Continuous Glucose Monitors measure interstitial glucose which lags behind venous glucose. Calculating insulin activity from clamp studies but using CGM data to judge glycemic index can give an inaccurate match. Adjustments will need to be made according to CGM lag time.</li>
+  <li>There needs to be a better way to evaluate carbohydrate absorption because it is difficult to get data for a range of food with no IOB present.</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Modelling insulin and carbohydrate absorption using statistical methods]]></summary></entry><entry><title type="html">Health Science &amp;amp; Well-being Podcast Recommendations</title><link href="https://esha1701.github.io/blog/2020/github-metadata/" rel="alternate" type="text/html" title="Health Science &amp;amp; Well-being Podcast Recommendations" /><published>2020-09-28T00:00:00+00:00</published><updated>2020-09-28T00:00:00+00:00</updated><id>https://esha1701.github.io/blog/2020/github-metadata</id><content type="html" xml:base="https://esha1701.github.io/blog/2020/github-metadata/"><![CDATA[<p><a href="https://peterattiamd.com/podcast/">The Peter Attia Drive Podcast</a>
+Hosted by Dr Peter Attia, a Stanford/Johns Hopkins trained physician, The Drive is a podcast on the applied science of longevity and maximising human healthspan.<br />
+Episodes I love: <a href="https://peterattiamd.com/robertsapolsky/">The Pervasive Effect of Stress</a>, <a href="https://peterattiamd.com/matthewwalker1/">Dangers of Poor Sleep</a>, <a href="https://peterattiamd.com/jakekushner/">How to Thrive with Type 1 Diabetes</a></p>
+
+<p><br /></p>
+
+<p><a href="https://hubermanlab.com">Huberman Lab Podcast</a>
+Andrew Huberman, a professor of neurobiology and ophthalmology at Stanford University School of Medicine, discusses how neuroscience controls our perception, behaviour and health.  <br />
+Episodes I love: <a href="https://hubermanlab.com/how-your-nervous-system-works-and-changes/">How Your Brain Works &amp; Changes</a>, <a href="https://hubermanlab.com/the-science-of-emotions-relationships/">The Science of Emotions &amp; Relationships</a></p>
+
+<p><br /></p>
+
+<p><a href="https://themattwalkerpodcast.buzzsprout.com">The Matt Walker Podcast</a>
+Matthew Walker, Professor of Neuroscience and Psychology at the University of California Berkeley, talks about the science of sleep and its impact on health. <br />
+Episodes I love: <a href="https://themattwalkerpodcast.buzzsprout.com/1821163/9090454-03-circadian-rhythms">Circadian Rhythms</a></p>
+
+<p><br /></p>
+
+<p><a href="https://lexfridman.com/podcast/">Lex Fridman Podcast</a>
+Lex Fridman, an AI researcher at MIT discusses the nature of intelligence, consciousness, love, and power.<br />
+Episodes I love: <a href="https://lexfridman.com/sam-harris/">: Consciousness, Free Will, AI, and Meaning</a>, <a href="https://lexfridman.com/bryan-johnson/"> Kernel Brain-Computer Interfaces</a></p>]]></content><author><name></name></author><summary type="html"><![CDATA[My favourite podcasts you should check out!]]></summary></entry></feed>
