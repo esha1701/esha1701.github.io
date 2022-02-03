@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Health Science Podcast Recommendations
-date: 2020-09-28 21:01:00
-description:My favourite podcasts you should check out!
+date: 2020-09-28
+description :My favourite podcasts you should check out!
 categories: 
 ---
 
