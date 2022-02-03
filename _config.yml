@@ -10,7 +10,7 @@ email: esha.manchanda_ug23@ashoka.edu.in
 description: 
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  # the emoji used as the favicon
@@ -79,8 +79,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: bookmarked # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name:  # your blog must have a name for it to show up in the nav bar
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
