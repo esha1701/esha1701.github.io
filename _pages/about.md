@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: [Student Researcher](https://esha1701.github.io)
+subtitle: <a href='#'>Student Researcher</a>
+
 profile:
   align: right
   image: prof_pic.jpg
