@@ -9,13 +9,13 @@ categories:
 
 
 [The Peter Attia Drive Podcast](https://peterattiamd.com/podcast/)
-Hosted by Dr Peter Attia, a Stanford/Johns Hopkins trained physician, The Drive is a podcast on the applied science of longevity and maximising human healthspan.<br>
+hosted by Dr Peter Attia, a Stanford/Johns Hopkins trained physician, The Drive is a podcast on the applied science of longevity and maximising human healthspan.<br>
 Episodes I love: [The Pervasive Effect of Stress](https://peterattiamd.com/robertsapolsky/), [Dangers of Poor Sleep](https://peterattiamd.com/matthewwalker1/), [How to Thrive with Type 1 Diabetes](https://peterattiamd.com/jakekushner/)
 
 <br>
 
 [Huberman Lab Podcast](https://hubermanlab.com)
-Andrew Huberman, a professor of neurobiology and ophthalmology at Stanford University School of Medicine, discusses how neuroscience controls our perception, behaviour and health.  <br>
+hosted by Andrew Huberman, a professor of neurobiology and ophthalmology at Stanford University School of Medicine, discusses how neuroscience controls our perception, behaviour and health.  <br>
 Episodes I love: [How Your Brain Works & Changes](https://hubermanlab.com/how-your-nervous-system-works-and-changes/), [The Science of Emotions & Relationships](https://hubermanlab.com/the-science-of-emotions-relationships/)
 
 <br>
