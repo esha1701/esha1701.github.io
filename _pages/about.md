@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+subttile: [Student Researcher](https://esha1701.github.io)
 profile:
   align: right
   image: prof_pic.jpg
