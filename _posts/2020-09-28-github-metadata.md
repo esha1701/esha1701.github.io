@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Health Science & Well-being Podcasts That Changed My Life
+title:  Health Science Podcasts That Changed My Life
 date: 2021-09-28
 description: My favourite podcasts you should check out!
 categories: 
