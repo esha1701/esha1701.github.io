@@ -142,7 +142,7 @@ EBV further complicates the matter by allowing these infected autoreactive B cel
         <li> 1.Pro-inflammatory cytokines could increase the permeability of the blood brain barrier, allowing more immune cells (including potentially autoreactive T cells and EBV-infected B cells) to cross into the brain. </li>
         <li> 2. Pro-inflammatory cytokines in large quantities can attract more immune cells to the CNS to fight off the infection, including T cells and macrophages, leading to an inflammatory environment.  </li> 
         <li>3. Cytokines like TNF and IL-6 can cause direct damage to oligodendrocytes</li>
-        </ul>ul>
+        </ul>
         </p>
 
         <h3 id="modelling-insulin-activity">αB-Crystallin ’mistaken self’</h3>
@@ -158,7 +158,56 @@ EBV further complicates the matter by allowing these infected autoreactive B cel
         Once inside the CNS, these immune cells could contribute to inflammation and damage to myelin. Thus EBV may not only drive the immune response that leads to MS but could also directly facilitate the movement of immune cells into the CNS, thereby exacerbating the disease.
         </p>
 
-    
+<h2 id="modelling-insulin-activity">Cracking the Code: Exploring EBV-MS with Computational Methods</h2>
+
+<p>As an aspiring computational biologist, I'm always drawn to exploring how problems can be solved using computational tools. Here are some questions in the realm of EBV-MS that I believe computational tools can help answer:
+</p> 
+
+<ol>
+  <li>
+    <p>Since (if the data is to be believed) Epstein barr virus is a necessary but not sufficient for development of MS, what genetic susceptibility must an individual carry for the virus to be able to inflict significant damage?</p>
+  <p> Susceptible genes can be found through genome wide association studies. Several genome-wide association studies have been conducted to investigate the genetic basis of MS, but the results do not specifically target how EBV infection can cause MS.
+</p>
+    <p>To specifically target the link between EBV MS we could consider a population of individuals with MS who have a history of EBV infection and a control group of people without MS but with a history of EBV infection. Using single nucleotide polymorphism arrays, we can then genotype the DNA samples to identify common genetic variations in the participants. We can then compare the frequency of each SNP between the EBV-MS group and the control group using statistical analysis. Variations that occur significantly more often in the EBV-MS group may be associated with an increased risk of MS following EBV infection.
+</p>
+  
+  <p>Once SNPs associated with EBV-MS are identified, further studies could be conducted to determine whether these variations have a functional impact on how the immune system responds to EBV infection. 
+</p>
+  </li>
+<li>
+     <p>I am particularly interested in how our chosen ways of life affect our well-being. I am curious about how lifestyle choices influence our cellular health and, more specifically in this case, the role of lifestyle in the occurrence of severe EBV infections. What factors could potentially cause EBV to wreak catastrophic damage in some individuals, and remain inconspicuous in others? Can we predict the course of EBV in individuals based on lifestyle factors? Are there any interactions between a specific diet and EBV? How does psychological stress influence the course of EBV infection?
+</p>
+<p>Large-scale data mining and machine learning techniques can help identify patterns in genomic data, health records, and lifestyle surveys to pinpoint factors that might expose certain individuals to more severe EBV infections. 
+Measuring stress computationally can be a challenge. One approach could be to computationally model the effect of stress-related hormones (e.g., cortisol) on immune response dynamics. Metabolomics could also be used to understand the interplay between diet, metabolism, and EBV.
+</p>
+ </li>
+
+<li><p>What are the key interactions between EBV proteins and human proteins that could potentially contribute to the onset and progression of MS?
+
+</p>
+<p>
+  Sequence Alignment could be used to arrange sequences of protein to identify regions of similarities between human and viral protein. In the event of homology, it's plausible that structures and functions of human and viral protein mirror each other. This could result in molecular mimicry or a contest for resources within the host cell. Furthermore, if the human protein is implicated in the immune response, the viral protein could potentially meddle with and alter this response.
+
+</p>
+<p>We could construct and analyse protein-protein interaction (PPI) networks, which can provide insights into the complex interplay between the viral and host proteins.    
+Protein-protein interaction (PPI) networks are graphical representations of the physical contacts between proteins in the cell. Each protein is represented by a node in the graph, and each interaction between proteins is represented by an edge.
+PPI networks can provide key insights into how proteins from EBV and human hosts interact and influence each other in the following ways:
+</p>
+<ul>
+  <li>Mapping Interactions: Such a network can reveal which human proteins the virus targets, providing potential clues about how the virus influences cell functions.</li>
+<li>Identifying Key Proteins: Within these networks, some proteins are more highly connected than others. If an EBV protein interacts with a hub protein in the human network, it may exert a large influence on the cell.
+</li>
+<li>Revealing Pathways: PPI networks can also highlight the biological pathways in which these proteins are involved. If EBV proteins interact with human proteins involved in immune regulation or neural function, this could suggest mechanisms through which the virus contributes to MS.
+</li>
+</ul>
+</li>
+<li><p>What are the significant changes in gene expression in EBV-infected B cells in MS patients, and what insights can these provide into the underlying molecular mechanisms of the disease?
+</p>
+<p>By performing a differential gene expression analysis using RNA sequencing data between EBV-infected B cells from MS patients and a control group (EBV-infected B cells from non-MS individuals) we can find differentially expressed genes, which are genes that are upregulated or downregulated in the EBV-infected B cells from MS patients relative to the control group.
+</p>
+</li>
+  
+</ol>
   </article>
 
 </div>
