@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Esha  Manchanda | Insulin-Glucose Absorption Dynamics</title>
+    <title>Esha  Manchanda | Health Science & Well-being Podcasts That Changed My Life</title>
     <meta name="author" content="Esha  Manchanda" />
-    <meta name="description" content="Modelling insulin and carbohydrate absorption using statistical methods" />
+    <meta name="description" content="My favourite podcasts you should check out!" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +30,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://esha1701.github.io/blog/2020/math/">
+    <link rel="canonical" href="https://esha1701.github.io/blog/2020/github-metadata/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -90,8 +90,8 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Insulin-Glucose Absorption Dynamics</h1>
-    <p class="post-meta">December 22, 2020</p>
+    <h1 class="post-title">Health Science &amp; Well-being Podcasts That Changed My Life</h1>
+    <p class="post-meta">September 28, 2020</p>
     <p class="post-tags">
       <a href="/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
 
@@ -99,57 +99,27 @@
   </header>
 
   <article class="post-content">
-    <p>[<a href="https://github.com/esha1701/insulin-gi-dynamics" target="_blank" rel="noopener noreferrer">Code for this project.</a>]</p>
+    <p><a href="https://peterattiamd.com/podcast/" target="_blank" rel="noopener noreferrer">The Peter Attia Drive Podcast</a>
+hosted by Dr Peter Attia, a Stanford/Johns Hopkins trained physician, The Drive is a podcast on the applied science of longevity and maximising human healthspan.<br>
+Episodes I love: <a href="https://peterattiamd.com/robertsapolsky/" target="_blank" rel="noopener noreferrer">The Pervasive Effect of Stress</a>, <a href="https://peterattiamd.com/matthewwalker1/" target="_blank" rel="noopener noreferrer">Dangers of Poor Sleep</a>, <a href="https://peterattiamd.com/jakekushner/" target="_blank" rel="noopener noreferrer">How to Thrive with Type 1 Diabetes</a></p>
 
-<p>Since subcutaneously delivered insulin analogs for type one diabetics behave differently from natural insulin, it’s almost impossible to keep blood sugar levels stable after meals. Almost always, you get a sharp peak followed by a rapid fall.</p>
+<p><br></p>
 
-<p><img width="500" alt="Screenshot 2022-02-03 at 9 47 48 AM" src="https://user-images.githubusercontent.com/46085409/152280495-1a3b4dab-e760-4790-a301-ffd9a6d0dbf0.png"></p>
+<p><a href="https://hubermanlab.com" target="_blank" rel="noopener noreferrer">Huberman Lab Podcast</a>
+hosted by Andrew Huberman, a professor of neurobiology and ophthalmology at Stanford University School of Medicine, discusses how neuroscience controls our perception, behaviour and health.  <br>
+Episodes I love: <a href="https://hubermanlab.com/how-your-nervous-system-works-and-changes/" target="_blank" rel="noopener noreferrer">How Your Brain Works &amp; Changes</a>, <a href="https://hubermanlab.com/the-science-of-emotions-relationships/" target="_blank" rel="noopener noreferrer">The Science of Emotions &amp; Relationships</a></p>
 
-<p>After subcutaneous delivery, insulin is in its hexameric form. Hexameric insulin cannot be directly absorbed in the bloodstream. These hexamers dissociate into dimeric and monomeric units, caused by diffusion in the intercellular dilution of the insulin concentration. Once it is in its dimeric and monomeric form, insulin penetrates the capillary membrane and is absorbed into the bloodstream. Since this process slows down absorption, insulin analogs do not manage to keep blood sugar levels steady the way natural insulin does.</p>
+<p><br></p>
 
-<p>Maybe sharp peaks and troughs can be avoided by mapping carbohydrate absorption rate and insulin activity to each other.</p>
+<p><a href="https://themattwalkerpodcast.buzzsprout.com" target="_blank" rel="noopener noreferrer">The Matt Walker Podcast</a>
+Matthew Walker, Professor of Neuroscience and Psychology at the University of California Berkeley, talks about the science of sleep and its impact on health. <br>
+Episodes I love: <a href="https://themattwalkerpodcast.buzzsprout.com/1821163/9090454-03-circadian-rhythms" target="_blank" rel="noopener noreferrer">Circadian Rhythms</a></p>
 
-<p>To match the trend of their curves, I quantified the bioavailability of insulin and the glycaemic index of food. Using regression, I determined insulin activity curves and glycemic response to different foods.</p>
+<p><br></p>
 
-<h2 id="modelling-insulin-activity">Modelling Insulin Activity</h2>
-
-<p>Currently, closed loop systems (Loop and OpenAPS) use exponential insulin activity curves fitted to novolog and fiasp data. I, however, wanted to try obtaining curves for humalog activity.</p>
-
-<h3 id="polynomial-regression">Polynomial Regression</h3>
-
-<p>First, I tried to approximate insulin curves with polynomial models. Using the Bayesian Information Criteria, I checked what degree gives the best fit. The model with the lowest BIC was a 7 degree polynomial.</p>
-
-<p><img width="511" alt="Screenshot 2020-12-17 at 4 04 38 PM" src="https://user-images.githubusercontent.com/46085409/102476940-bbc2d980-4081-11eb-8b9a-dfcfda51fff3.png"></p>
-
-<p>Since there isn’t a consistent decay trend after the peak is hit, polynomial models are not a great fit to mimic insulin activity.</p>
-
-<h3 id="exponential-curve-fitting">Exponential Curve Fitting</h3>
-
-<p>Next I tried to fit data to an exponential model because I needed gradual asymptotic fading of insulin concentration.</p>
-
-<p><img width="511" alt="Screenshot 2021-01-03 at 7 00 53 PM" src="https://user-images.githubusercontent.com/46085409/103479784-09677200-4df6-11eb-9997-1a1bad611419.png"></p>
-
-<p>The exponential model was a decent fit and the one I ended up using.</p>
-
-<h2 id="modelling-glycemic-index">Modelling Glycemic Index</h2>
-<p>I tried to model the glycemic index of food in the following way - I took cgm readings after consumption of 15 grams of carbs in different foods, provided that there was no insulin on board. I fitted the data to a polynomial curve and found the peak of the graph. 
-Next, I normalised both curves and shifted the insulin curve to meet the peak time for the glycemic index curve. This way we can calculate the time gap between insulin and food consumption to get matched curve trends which can give relatively steady blood sugar after meals.</p>
-
-<p>An example curve for 15 grams of carbs (from an apple):</p>
-
-<p><img width="545" alt="Screenshot 2021-01-03 at 8 59 25 PM" src="https://user-images.githubusercontent.com/46085409/103483325-84d41e00-4e0c-11eb-85db-f2ca9311c241.png">
-<img width="530" alt="Screenshot 2022-02-03 at 9 50 27 AM" src="https://user-images.githubusercontent.com/46085409/152280637-f691e1d8-8feb-4ea2-9650-03a82b94e6c3.png"></p>
-
-<h2 id="assumptions--drawbacks">Assumptions &amp; Drawbacks</h2>
-
-<ul>
-  <li>Subcutaneous insulin absorption can be influenced by many factors such as location of injection site, temperature and blood flow near the injection site. It is difficult to consider these factors in determining insulin activity curves since they vary each time and are impossible to quantify.</li>
-  <li>YDMV (your diabetes may vary) will always be a challenge while building solutions for diabetes. The insulin curves are fit to consolidation of data in clinical trials from a large number of diabetics. Insulin action, however, differs among each individual. No curve will be able to give precise readings for two different people or even for the same person at different points in time.</li>
-  <li>This method can only be used for foods that have a carbohydrate absorption profile similar to insulin absorption. This method can not work for foods very high in fat or protein because their absorption dynamics do not follow the rise-singlepeak-fall trend.</li>
-  <li>We are working on the assumption that glucose and insulin dose size does not affect its profile/ dynamics of absorption.</li>
-  <li>Continuous Glucose Monitors measure interstitial glucose which lags behind venous glucose. Calculating insulin activity from clamp studies but using CGM data to judge glycemic index can give an inaccurate match. Adjustments will need to be made according to CGM lag time.</li>
-  <li>There needs to be a better way to evaluate carbohydrate absorption because it is difficult to get data for a range of food with no IOB present.</li>
-</ul>
+<p><a href="https://lexfridman.com/podcast/" target="_blank" rel="noopener noreferrer">Lex Fridman Podcast</a>
+Lex Fridman, an AI researcher at MIT discusses the nature of intelligence, consciousness, love, and power.<br>
+Episodes I love: <a href="https://lexfridman.com/sam-harris/" target="_blank" rel="noopener noreferrer">: Consciousness, Free Will, AI, and Meaning</a>, <a href="https://lexfridman.com/bryan-johnson/" target="_blank" rel="noopener noreferrer"> Kernel Brain-Computer Interfaces</a></p>
 
 
   </article>
